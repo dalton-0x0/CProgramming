@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Assignment07
+ProjectName            :=Assignment08
 ConfigurationName      :=Debug
 WorkspacePath          := "C:\Users\Chike\Documents\myworkspace"
-ProjectPath            := "C:\Users\Chike\Documents\myworkspace\Assignment07"
+ProjectPath            := "C:\Users\Chike\Documents\myworkspace\Assignment08"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment07.txt"
+ObjectsFileList        :="Assignment08.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Assignment08.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix): Assignment07.c $(IntermediateDirectory)/Assignment07.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Chike/Documents/myworkspace/Assignment07/Assignment07.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Assignment07.c$(DependSuffix): Assignment07.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Assignment07.c$(DependSuffix) -MM "Assignment07.c"
+$(IntermediateDirectory)/Assignment08.c$(ObjectSuffix): Assignment08.c $(IntermediateDirectory)/Assignment08.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Chike/Documents/myworkspace/Assignment08/Assignment08.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Assignment08.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Assignment08.c$(DependSuffix): Assignment08.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Assignment08.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Assignment08.c$(DependSuffix) -MM "Assignment08.c"
 
-$(IntermediateDirectory)/Assignment07.c$(PreprocessSuffix): Assignment07.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Assignment07.c$(PreprocessSuffix) "Assignment07.c"
+$(IntermediateDirectory)/Assignment08.c$(PreprocessSuffix): Assignment08.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Assignment08.c$(PreprocessSuffix) "Assignment08.c"
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

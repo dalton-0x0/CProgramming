@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Assignment07
+ProjectName            :=LinkedList
 ConfigurationName      :=Debug
 WorkspacePath          := "C:\Users\Chike\Documents\myworkspace"
-ProjectPath            := "C:\Users\Chike\Documents\myworkspace\Assignment07"
+ProjectPath            := "C:\Users\Chike\Documents\myworkspace\LinkedList"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Chike
-Date                   :=19/03/2016
+Date                   :=18/03/2016
 CodeLitePath           :="C:\Program Files\CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Assignment07.txt"
+ObjectsFileList        :="LinkedList.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/LinkedList.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix): Assignment07.c $(IntermediateDirectory)/Assignment07.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/Chike/Documents/myworkspace/Assignment07/Assignment07.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Assignment07.c$(DependSuffix): Assignment07.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Assignment07.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Assignment07.c$(DependSuffix) -MM "Assignment07.c"
+$(IntermediateDirectory)/LinkedList.c$(ObjectSuffix): LinkedList.c $(IntermediateDirectory)/LinkedList.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/Chike/Documents/myworkspace/LinkedList/LinkedList.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/LinkedList.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/LinkedList.c$(DependSuffix): LinkedList.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/LinkedList.c$(ObjectSuffix) -MF$(IntermediateDirectory)/LinkedList.c$(DependSuffix) -MM "LinkedList.c"
 
-$(IntermediateDirectory)/Assignment07.c$(PreprocessSuffix): Assignment07.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Assignment07.c$(PreprocessSuffix) "Assignment07.c"
+$(IntermediateDirectory)/LinkedList.c$(PreprocessSuffix): LinkedList.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/LinkedList.c$(PreprocessSuffix) "LinkedList.c"
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Chike
-Date                   :=14/03/2016
+Date                   :=18/03/2016
 CodeLitePath           :="C:\Program Files\CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -99,7 +99,7 @@ $(IntermediateDirectory)/Assignment06.c$(DependSuffix): Assignment06.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Assignment06.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Assignment06.c$(DependSuffix) -MM "Assignment06.c"
 
 $(IntermediateDirectory)/Assignment06.c$(PreprocessSuffix): Assignment06.c
-	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Assignment06.c$(PreprocessSuffix) "Assignment06.c"
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Assignment06.c$(PreprocessSuffix) "Assignment06.c"
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

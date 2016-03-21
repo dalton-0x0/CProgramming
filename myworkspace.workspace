@@ -7,9 +7,14 @@
   <Project Name="Assignment01" Path="Assignment01/Assignment01.project"/>
   <Project Name="Midterm06" Path="Midterm06/Midterm06.project" Active="No"/>
   <Project Name="Assignment06" Path="Assignment06/Assignment06.project" Active="No"/>
-  <Project Name="Assignment07" Path="Assignment07/Assignment07.project" Active="Yes"/>
+  <Project Name="Assignment07" Path="Assignment07/Assignment07.project" Active="No"/>
+  <Project Name="Assignment08" Path="Assignment08/Assignment08.project" Active="Yes"/>
+  <Project Name="DynamicLists" Path="DynamicLists/DynamicLists.project" Active="No"/>
+  <Project Name="LinkedList" Path="LinkedList/LinkedList.project" Active="No"/>
+  <Project Name="Final_10" Path="Final_10/Final_10.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
       <Project Name="Assignment-01" ConfigName="Debug"/>
       <Project Name="Assignment-02" ConfigName="Debug"/>
       <Project Name="Assignment01" ConfigName="Debug"/>
@@ -24,8 +29,13 @@
       <Project Name="Midterm06" ConfigName="Debug"/>
       <Project Name="Assignment06" ConfigName="Debug"/>
       <Project Name="Assignment07" ConfigName="Debug"/>
+      <Project Name="Assignment08" ConfigName="Debug"/>
+      <Project Name="DynamicLists" ConfigName="Debug"/>
+      <Project Name="LinkedList" ConfigName="Debug"/>
+      <Project Name="Final_10" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
       <Project Name="Assignment-01" ConfigName="Release"/>
       <Project Name="Assignment-02" ConfigName="Release"/>
       <Project Name="Assignment01" ConfigName="Release"/>
@@ -40,6 +50,10 @@
       <Project Name="Midterm06" ConfigName="Release"/>
       <Project Name="Assignment06" ConfigName="Release"/>
       <Project Name="Assignment07" ConfigName="Release"/>
+      <Project Name="Assignment08" ConfigName="Release"/>
+      <Project Name="DynamicLists" ConfigName="Release"/>
+      <Project Name="LinkedList" ConfigName="Release"/>
+      <Project Name="Final_10" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
