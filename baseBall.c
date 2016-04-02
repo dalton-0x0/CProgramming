@@ -1,17 +1,3 @@
-//********************************************************************************************************************
-//
-//	FINAL:          Question 8, Baseball player stats
-//
-//	NAME:           Jesse Chamberlain
-//
-//	CLASS:          C Programming, Fall 2015
-//
-//	DATE:           11/09/15
-//
-//  DESCRIPTION:    This program prompts the user for player stats. It then calculates the totals, ratios and averages.
-//
-//********************************************************************************************************************
-
 #include <stdio.h>
 #include <stdlib.h>             // for malloc
 #include <string.h>
